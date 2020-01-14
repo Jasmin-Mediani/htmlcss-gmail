@@ -1,0 +1,114 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  width: auto;
+}
+
+body {
+  background-image: url("../img/background.jpg");
+  /*background-image: url(https://images.unsplash.com/photo-1495195129352-aeb325a55b65?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80f);*/
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+}
+
+.div-input {
+  background-color: lightgray;
+  border: 1px solid black;
+  font-size: 20px;
+  padding: 0px 10px;
+}
+
+.container-all {
+  margin-left: 20%;
+  margin-right: 20%;
+  height: 60vh;
+  /*flex-direction: column;
+  display: flex;*/
+}
+
+.container-up {
+  /*display: flex;
+  flex-direction: row;*/
+}
+
+.container-middle {
+  margin: 5px 0px;
+}
+
+.container-checkbox {
+  margin-top: 10px;
+}
+
+.gmail-logo-container {
+  width: 90px;
+  height: 80px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.p-container-logo {
+  align-self: center;
+  margin-left: 10px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.logo {
+  width: 90px;
+  height: 150x;
+}
+
+.container-logo-e-p {
+  width: 100%;
+  margin-bottom: 5px;
+  /*display: flex;*/
+}
+
+.paragrafo-grande {
+  margin: 30px auto;
+  font-family: montserrat;
+  font-size: xx-large;
+}
+
+.bottone-tondo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: rgb(142, 122, 255);
+  border: none;
+  font-size: 30px;
+  color: whitesmoke;
+}
+
+.bottone-vai {
+  width: 40px;
+}
+
+.scritta-gmail {
+  font-size: 25px;
+  color: whitesmoke;
+}
+
+.p-foot {
+  font-size: 20px;
+  color: rgb(92, 38, 38);
+  text-align: center;
+}
+
+.diverso {
+  background-color: rgb(173, 166, 166);
+}
+
+span {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.p-foot {
+  font-weight: bold;
+}
